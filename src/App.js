@@ -4,14 +4,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-
-function SuluYemekler() {
-  return <h2 className="text-center mt-4">Sulu Yemekler Sayfası</h2>;
-}
-
-function Corbalar() {
-  return <h2 className="text-center mt-4">Çorbalar Sayfası</h2>;
-}
+import SuluYemekler from './components/SuluYemekler';
+import FoodDetails from './components/FoodDetails';
+import Corbalar from './components/Corbalar';
+import CorbaDetails from './components/CorbaDetails';
 
 function Tatlilar() {
   return <h2 className="text-center mt-4">Tatlılar Sayfası</h2>;
@@ -29,8 +25,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/sulu-yemekler" element={<SuluYemekler />} />
         <Route path="/corbalar" element={<Corbalar />} />
+        <Route path="/corba/:name" element={<CorbaDetails />} />
         <Route path="/tatlilar" element={<Tatlilar />} />
         <Route path="/kizartmalar" element={<Kizartmalar />} />
+        <Route path="/food-details/:name" element={<FoodDetails />} />
       </Routes>
     </Router>
   );
