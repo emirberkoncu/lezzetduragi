@@ -435,3 +435,210 @@ export const corbalar = [
       'https://cdn.yemek.com/mncrop/620/388/uploads/2021/10/tavuklu-sehriye-corbasi-yemekcom.jpg',
   },
 ];
+
+export const tatlilar = [
+  {
+    name: 'sutlac',
+    tatli: 'Sütlaç',
+    malzemeler: [
+      '1 su bardağı pirinç',
+      '5 su bardağı süt',
+      '1 su bardağı su',
+      '1 su bardağı şeker',
+      '1 paket vanilin',
+      'Tuz',
+      'Tarçın (isteğe bağlı)',
+    ],
+    yapılış: [
+      'Pirinci yıkayın ve su ile haşlayın.',
+      'Sütü ekleyin ve kaynatın.',
+      'Şeker ve vanilini ekleyin, karıştırın.',
+      'Kıvam alıncaya kadar pişirin, kaselere dökün.',
+      'Servis ederken tarçın serpin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2015/03/ytk-firin-sutlac-site.jpg',
+  },
+  {
+    name: 'revani',
+    tatli: 'Revani',
+    malzemeler: [
+      '1 su bardağı irmik',
+      '1 su bardağı yoğurt',
+      '1 su bardağı şeker',
+      '3 adet yumurta',
+      '1 paket kabartma tozu',
+      '1 paket vanilin',
+      '1 su bardağı sıvı yağ',
+      '1 su bardağı su (şerbet için)',
+      '1.5 su bardağı şeker (şerbet için)',
+    ],
+    yapılış: [
+      'Yumurta ve şekeri çırpın, yoğurt ve sıvı yağı ekleyin.',
+      'İrmik, kabartma tozu ve vanilini ekleyin, karıştırın.',
+      'Yağlanmış tepsiye dökün, 180°C sıcaklıkta pişirin.',
+      'Şeker ve suyu kaynatın, soğuyan kekin üzerine dökün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2017/08/muhallebili-revani-yemekcom.jpg',
+  },
+  {
+    name: 'baklava',
+    tatli: 'Baklava',
+    malzemeler: [
+      '1 paket baklavalık yufka',
+      '250 gr tereyağı',
+      '1 su bardağı ceviz (veya fındık)',
+      '1 su bardağı su (şerbet için)',
+      '1.5 su bardağı şeker (şerbet için)',
+      '1 tatlı kaşığı limon suyu (şerbet için)',
+    ],
+    yapılış: [
+      'Yufkaları tepsiye yerleştirip tereyağı sürün.',
+      'Araya ceviz serpin ve yufkaları kat kat dizin.',
+      'Önceden ısıtılmış 180°C sıcaklıkta pişirin.',
+      'Şeker ve suyu kaynatın, limon suyunu ekleyin.',
+      'Fırından çıkan baklavanın üzerine şerbeti dökün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2017/06/fistikli-baklava-yemekcom1.jpg',
+  },
+  {
+    name: 'kadayif',
+    tatli: 'Kadayıf',
+    malzemeler: [
+      '500 gr kadayıf',
+      '250 gr tereyağı',
+      '300 gr ceviz (veya fındık)',
+      '1 su bardağı su (şerbet için)',
+      '1.5 su bardağı şeker (şerbet için)',
+      '1 tatlı kaşığı limon suyu (şerbet için)',
+    ],
+    yapılış: [
+      'Kadayıfı hafifçe açın, tereyağında kavurun.',
+      'Yağlı tepsiye kadayıfı yerleştirin, ceviz serpin.',
+      'Diğer kadayıfı üzerine koyun, 180°C sıcaklıkta pişirin.',
+      'Şeker ve suyu kaynatıp limon suyunu ekleyin.',
+      'Pişen kadayıfın üzerine şerbeti dökün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2017/09/baklava-yufkasinda-kadayif-sarma-tarifi.jpg',
+  },
+  {
+    name: 'mozaikpastasi',
+    tatli: 'Mozaik Pasta',
+    malzemeler: [
+      '2 paket petibör bisküvi',
+      '1 paket kakaolu puding',
+      '4 su bardağı süt',
+      '1 su bardağı şeker',
+      '1 paket vanilin',
+      '1 su bardağı ceviz (isteğe bağlı)',
+    ],
+    yapılış: [
+      'Pudingi, süt ve şekeri kaynatarak pişirin.',
+      'Bisküvileri kırın, pudingi ekleyip karıştırın.',
+      'Karışımı streç filme sararak dondurun.',
+      'Dondurucudan çıkarıp dilimleyerek servis edin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2022/03/mozaik-pasta-tarifi-yemekcom.jpg',
+  },
+  {
+    name: 'tiramisu',
+    tatli: 'Tiramisu',
+    malzemeler: [
+      '250 gr mascarpone peyniri',
+      '1 paket kedi dili',
+      '1 su bardağı kahve',
+      '1 su bardağı süt',
+      '3 yemek kaşığı şeker',
+      '1 paket vanilin',
+      'Kakao (üzeri için)',
+    ],
+    yapılış: [
+      'Kahveyi hazırlayın, şeker ve sütü ekleyin.',
+      'Kedi dillerini kahve karışımında ıslatın.',
+      'Mascarpone peynirini çırpın, vanilin ekleyin.',
+      'Kat kat yerleştirip, üstüne kakao serpin.',
+      'Buzdolabında dinlendirin ve servis edin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2016/06/tiramisu-yeni-one-cikan.jpg',
+  },
+  {
+    name: 'profiterol',
+    tatli: 'Profiterol',
+    malzemeler: [
+      '1 su bardağı su',
+      '1/2 su bardağı tereyağı',
+      '1 su bardağı un',
+      '4 adet yumurta',
+      '1 paket vanilin',
+      '1 paket çikolata sosu',
+    ],
+    yapılış: [
+      'Su ve tereyağını kaynatın, un ekleyin.',
+      'Yumurta ve vanilini ekleyin, hamur kıvamına gelene kadar karıştırın.',
+      'Hamuru tepsiye yerleştirin, 180°C sıcaklıkta pişirin.',
+      'Çikolata sosunu hazırlayıp profiterollerin üzerine dökün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2014/11/profiterol-yemekcom2.jpg',
+  },
+  {
+    name: 'dondurma',
+    tatli: 'Dondurma',
+    malzemeler: [
+      '2 su bardağı süt',
+      '1 su bardağı krema',
+      '1/2 su bardağı şeker',
+      '1 paket vanilin',
+      'İsteğe bağlı meyve veya çikolata parçaları',
+    ],
+    yapılış: [
+      'Süt, krema ve şekeri karıştırın.',
+      'Vanilini ekleyin, dondurucuya koyun.',
+      'Dondurma kıvamına gelene kadar karıştırarak dondurun.',
+      'İsteğe bağlı malzemeleri ekleyip servis edin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2021/01/dondurma-kasigi-kurabiyesi-yemekcom2.jpg',
+  },
+  {
+    name: 'cakepop',
+    tatli: 'Cake Pop',
+    malzemeler: [
+      '1 paket kek (herhangi bir çeşit)',
+      '1 paket krem peynir',
+      'Çikolata (üstü için)',
+      'Süsleme malzemeleri (isteğe bağlı)',
+    ],
+    yapılış: [
+      'Keki ufalayın, krem peynir ile yoğurun.',
+      'Toplar yapıp dondurucuya koyun.',
+      'Çikolatayı eritip topun üzerine dökün, süsleyin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2023/12/cakepops-yemekcom.jpg',
+  },
+  {
+    name: 'kurabiye',
+    tatli: 'Kurabiye',
+    malzemeler: [
+      '125 gr tereyağı',
+      '1/2 su bardağı şeker',
+      '1 yumurta',
+      '2 su bardağı un',
+      '1 paket kabartma tozu',
+      'Vanilin',
+    ],
+    yapılış: [
+      'Tereyağını ve şekeri çırpın, yumurtayı ekleyin.',
+      'Un, kabartma tozu ve vanilini ekleyip yoğurun.',
+      'Fırında 180°C sıcaklıkta pişirin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2018/12/brownie-kurabiye-yemekcom.jpg',
+  },
+];

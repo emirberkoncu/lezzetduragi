@@ -8,10 +8,8 @@ import SuluYemekler from './components/SuluYemekler';
 import FoodDetails from './components/FoodDetails';
 import Corbalar from './components/Corbalar';
 import CorbaDetails from './components/CorbaDetails';
-
-function Tatlilar() {
-  return <h2 className="text-center mt-4">Tatlılar Sayfası</h2>;
-}
+import Tatlilar from './components/Tatlilar';
+import TatliDetails from './components/TatliDetails';
 
 function Kizartmalar() {
   return <h2 className="text-center mt-4">Kızartmalar Sayfası</h2>;
@@ -27,6 +25,7 @@ function App() {
         <Route path="/corbalar" element={<Corbalar />} />
         <Route path="/corba/:name" element={<CorbaDetails />} />
         <Route path="/tatlilar" element={<Tatlilar />} />
+        <Route path="/tatli/:name" element={<TatliDetails />} />
         <Route path="/kizartmalar" element={<Kizartmalar />} />
         <Route path="/food-details/:name" element={<FoodDetails />} />
       </Routes>

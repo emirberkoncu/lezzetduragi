@@ -58,7 +58,7 @@ const Home = () => {
 
       {/* Ana içerik */}
       <div className="mx-auto w-4/6 text-center mt-8">
-        <h1 className="text-4xl font-bold">Hoş Geldiniz!</h1>
+        <h1 className="text-4xl font-bold">Lezzet Durağına Hoş Geldiniz!</h1>
         <p className="mt-4 text-lg">
           En lezzetli yemek tariflerine buradan ulaşabilirsiniz.
         </p>
