@@ -47,37 +47,43 @@ const Home = () => {
   ];
 
   return (
-    <div className="relative flex">
+    <div className="flex flex-col lg:flex-row">
       {/* Sol taraftaki reklam */}
-      <div className="h-screen w-1/6 bg-gray-300 flex items-center justify-center">
-        <div className="text-center p-4">
+      <div className="w-full lg:w-1/6 bg-gray-300 p-4 lg:h-screen">
+        <div className="text-center">
           <h2 className="text-xl font-bold">Reklam Alanı</h2>
           <p className="mt-2">Bu alana reklam yerleştirilebilir.</p>
         </div>
       </div>
 
       {/* Ana içerik */}
-      <div className="mx-auto w-4/6 text-center mt-8">
-        <h1 className="text-4xl font-bold">Lezzet Durağına Hoş Geldiniz!</h1>
-        <p className="mt-4 text-lg">
+      <div className="w-full lg:w-4/6 px-4 py-8 lg:py-12">
+        <h1 className="text-3xl lg:text-4xl font-bold text-center">
+          Lezzet Durağına Hoş Geldiniz!
+        </h1>
+        <p className="mt-4 text-lg text-center">
           En lezzetli yemek tariflerine buradan ulaşabilirsiniz.
         </p>
 
         {/* Slider Bölümü */}
-        <div className="mx-auto w-full mt-12">
+        <div className="mt-8 lg:mt-12">
           <Slider {...settings}>
             {recipes.map((recipe, index) => (
-              <div className="w-full h-[300px]" key={index}>
+              <div
+                className="w-full h-[200px] xl:h-[400px] sm:h-[250px] md:h-[300px]"
+                key={index}
+              >
                 <img
                   src={recipe.src}
                   alt={`Yemek ${index + 1}`}
-                  className="w-full h-full object-contain"
+                  className="w-full  xl:object-fill xl:h-[400px] object-cover"
                 />
               </div>
             ))}
           </Slider>
         </div>
-        <div className="flex flex-wrap justify-center mt-10 gap-4">
+
+        <div className="flex flex-wrap justify-center mt-8 lg:mt-10 gap-4">
           <FoodCard
             title="Mercimek Çorbası"
             description="Anne yapımı çorba"
@@ -97,8 +103,8 @@ const Home = () => {
       </div>
 
       {/* Sağ taraftaki reklam */}
-      <div className="h-screen w-1/6 bg-gray-300 flex items-center justify-center">
-        <div className="text-center p-4">
+      <div className="w-full lg:w-1/6 bg-gray-300 p-4 lg:h-screen">
+        <div className="text-center">
           <h2 className="text-xl font-bold">Reklam Alanı</h2>
           <p className="mt-2">Bu alana reklam yerleştirilebilir.</p>
         </div>

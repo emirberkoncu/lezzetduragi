@@ -10,10 +10,8 @@ import Corbalar from './components/Corbalar';
 import CorbaDetails from './components/CorbaDetails';
 import Tatlilar from './components/Tatlilar';
 import TatliDetails from './components/TatliDetails';
-
-function Kizartmalar() {
-  return <h2 className="text-center mt-4">Kızartmalar Sayfası</h2>;
-}
+import Kizartmalar from './components/Kizartmalar';
+import KizartmaDetails from './components/KizartmaDetails';
 
 function App() {
   return (
@@ -27,6 +25,7 @@ function App() {
         <Route path="/tatlilar" element={<Tatlilar />} />
         <Route path="/tatli/:name" element={<TatliDetails />} />
         <Route path="/kizartmalar" element={<Kizartmalar />} />
+        <Route path="/kizartma/:name" element={<KizartmaDetails />} />
         <Route path="/food-details/:name" element={<FoodDetails />} />
       </Routes>
     </Router>

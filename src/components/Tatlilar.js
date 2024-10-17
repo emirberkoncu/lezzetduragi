@@ -4,7 +4,7 @@ import { tatlilar } from '../data'; // Tatlılar verilerini içe aktar
 
 const Tatlilar = () => {
   return (
-    <div className="flex flex-wrap justify-center p-4 bg-gray-100 min-h-screen">
+    <div className="flex flex-wrap justify-center   ">
       {tatlilar.map((tatli, index) => (
         <Link to={`/tatli/${tatli.name}`} key={index} className="m-4">
           <div className="bg-white border rounded-lg shadow-md p-4 w-72">

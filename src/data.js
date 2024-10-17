@@ -1,6 +1,7 @@
 export const yemekler = [
   {
     name: 'kuzutandir',
+    category: 'yemek',
     yemek: 'Kuzu Tandır',
     malzemeler: [
       '1 kg kuzu eti',
@@ -24,6 +25,7 @@ export const yemekler = [
   },
   {
     name: 'biberdolmasi',
+    category: 'yemek',
     yemek: 'Biber Dolması',
     malzemeler: [
       '4 adet dolmalık biber',
@@ -49,6 +51,7 @@ export const yemekler = [
   },
   {
     name: 'tavuksote',
+    category: 'yemek',
     yemek: 'Tavuk Sote',
     malzemeler: [
       '500 gr tavuk göğsü',
@@ -71,6 +74,7 @@ export const yemekler = [
   },
   {
     name: 'patatesyemegi',
+    category: 'yemek',
     yemek: 'Patates Yemeği',
     malzemeler: [
       '4 adet patates',
@@ -93,6 +97,7 @@ export const yemekler = [
   },
   {
     name: 'kiymali-sebze-yemegi',
+    category: 'yemek',
     yemek: 'Kıymalı Sebze Yemeği',
     malzemeler: [
       '300 gr kıyma',
@@ -116,6 +121,7 @@ export const yemekler = [
   },
   {
     name: 'zeytinyagli-enginar',
+    category: 'yemek',
     yemek: 'Zeytinyağlı Enginar',
     malzemeler: [
       '4 adet enginar',
@@ -136,6 +142,7 @@ export const yemekler = [
   },
   {
     name: 'besamelsoslukarnabahar',
+    category: 'yemek',
     yemek: 'Beşamel Soslu Karnabahar',
     malzemeler: [
       '1 adet karnabahar',
@@ -158,6 +165,7 @@ export const yemekler = [
   },
   {
     name: 'etlinohutyemegi',
+    category: 'yemek',
     yemek: 'Etli Nohut Yemeği',
     malzemeler: [
       '300 gr et',
@@ -180,6 +188,7 @@ export const yemekler = [
   },
   {
     name: 'lahanalikiymaliyemek',
+    category: 'yemek',
     yemek: 'Lahanalı Kıymalı Yemek',
     malzemeler: [
       '1 adet lahana',
@@ -201,6 +210,7 @@ export const yemekler = [
   },
   {
     name: 'kiymalipirasayemegi',
+    category: 'yemekler',
     yemek: 'Kıymalı Pırasa Yemeği',
     malzemeler: [
       '4 dal pırasa',
@@ -226,6 +236,7 @@ export const corbalar = [
   {
     name: 'mercimekcorbasi',
     corba: 'Mercimek Çorbası',
+    category: 'corba',
     malzemeler: [
       '1 su bardağı kırmızı mercimek',
       '1 adet soğan',
@@ -249,6 +260,7 @@ export const corbalar = [
   },
   {
     name: 'tarhanacorbasi',
+    category: 'corba',
     corba: 'Tarhana Çorbası',
     malzemeler: [
       '1 su bardağı tarhana',
@@ -270,6 +282,7 @@ export const corbalar = [
   },
   {
     name: 'sebzecorbasi',
+    category: 'corba',
     corba: 'Sebze Çorbası',
     malzemeler: [
       '1 adet patates',
@@ -292,6 +305,7 @@ export const corbalar = [
   },
   {
     name: 'tavukcorbasi',
+    category: 'corba',
     corba: 'Tavuk Suyu Çorbası',
     malzemeler: [
       '1 adet tavuk butu',
@@ -313,6 +327,7 @@ export const corbalar = [
   },
   {
     name: 'domatescorbasi',
+    category: 'corba',
     corba: 'Domates Çorbası',
     malzemeler: [
       '4 adet domates',
@@ -334,6 +349,7 @@ export const corbalar = [
   },
   {
     name: 'yaylacorbasi',
+    category: 'corba',
     corba: 'Yayla Çorbası',
     malzemeler: [
       '1 su bardağı yoğurt',
@@ -355,6 +371,7 @@ export const corbalar = [
   },
   {
     name: 'kiscorbasi',
+    category: 'corba',
     corba: 'Kış Çorbası',
     malzemeler: [
       '2 adet havuç',
@@ -376,6 +393,7 @@ export const corbalar = [
   },
   {
     name: 'iskembecorbası',
+    category: 'corba',
     corba: 'İşkembe Çorbası',
     malzemeler: [
       '500 gr işkembe',
@@ -396,6 +414,7 @@ export const corbalar = [
   },
   {
     name: 'taratorcorbasi',
+    category: 'corba',
     corba: 'Tarator Çorbası',
     malzemeler: [
       '1 su bardağı yoğurt',
@@ -416,6 +435,7 @@ export const corbalar = [
   },
   {
     name: 'sehriyecorbasi',
+    category: 'corba',
     corba: 'Şehriye Çorbası',
     malzemeler: [
       '1 su bardağı şehriye',
@@ -439,6 +459,7 @@ export const corbalar = [
 export const tatlilar = [
   {
     name: 'sutlac',
+    category: 'tatli',
     tatli: 'Sütlaç',
     malzemeler: [
       '1 su bardağı pirinç',
@@ -461,6 +482,7 @@ export const tatlilar = [
   },
   {
     name: 'revani',
+    category: 'tatli',
     tatli: 'Revani',
     malzemeler: [
       '1 su bardağı irmik',
@@ -484,6 +506,7 @@ export const tatlilar = [
   },
   {
     name: 'baklava',
+    category: 'tatli',
     tatli: 'Baklava',
     malzemeler: [
       '1 paket baklavalık yufka',
@@ -505,6 +528,7 @@ export const tatlilar = [
   },
   {
     name: 'kadayif',
+    category: 'tatli',
     tatli: 'Kadayıf',
     malzemeler: [
       '500 gr kadayıf',
@@ -526,6 +550,7 @@ export const tatlilar = [
   },
   {
     name: 'mozaikpastasi',
+    category: 'tatli',
     tatli: 'Mozaik Pasta',
     malzemeler: [
       '2 paket petibör bisküvi',
@@ -546,6 +571,7 @@ export const tatlilar = [
   },
   {
     name: 'tiramisu',
+    category: 'tatli',
     tatli: 'Tiramisu',
     malzemeler: [
       '250 gr mascarpone peyniri',
@@ -568,6 +594,7 @@ export const tatlilar = [
   },
   {
     name: 'profiterol',
+    category: 'tatli',
     tatli: 'Profiterol',
     malzemeler: [
       '1 su bardağı su',
@@ -588,6 +615,7 @@ export const tatlilar = [
   },
   {
     name: 'dondurma',
+    category: 'tatli',
     tatli: 'Dondurma',
     malzemeler: [
       '2 su bardağı süt',
@@ -607,6 +635,7 @@ export const tatlilar = [
   },
   {
     name: 'cakepop',
+    category: 'tatli',
     tatli: 'Cake Pop',
     malzemeler: [
       '1 paket kek (herhangi bir çeşit)',
@@ -624,6 +653,7 @@ export const tatlilar = [
   },
   {
     name: 'kurabiye',
+    category: 'tatli',
     tatli: 'Kurabiye',
     malzemeler: [
       '125 gr tereyağı',
@@ -640,5 +670,231 @@ export const tatlilar = [
     ],
     image:
       'https://cdn.yemek.com/mncrop/620/388/uploads/2018/12/brownie-kurabiye-yemekcom.jpg',
+  },
+];
+
+export const kizartmalar = [
+  {
+    name: 'patateskizartmasi',
+    kizartma: 'Patates Kızartması',
+    category: 'kizartma',
+    malzemeler: [
+      '4 adet patates',
+      'Kızartmak için sıvı yağ',
+      'Tuz',
+      'Karabiber (isteğe bağlı)',
+    ],
+    yapılış: [
+      'Patatesleri soyun ve istediğiniz boyutta dilimleyin.',
+      'Kızartma yağını derin bir tavada ısıtın.',
+      'Patates dilimlerini ekleyin ve altın rengi alana kadar kızartın.',
+      'Kızaran patatesleri kağıt havlu üzerine alın ve fazla yağını süzdürün.',
+      'Tuz ve baharatları ekleyip sıcak servis edin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2019/11/firinda-patates-buyuk-revize-yemekcom.jpg',
+  },
+  {
+    name: 'kabakkizartmasi',
+    kizartma: 'Kabak Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '2 adet kabak',
+      '1 su bardağı un',
+      '1 adet yumurta',
+      'Kızartmak için sıvı yağ',
+      'Tuz',
+      'Karabiber',
+    ],
+    yapılış: [
+      'Kabakları halka şeklinde dilimleyin.',
+      'Bir kasede yumurtayı çırpın, un, tuz ve baharatları ekleyin.',
+      'Kabak dilimlerini una bulayıp, yumurtaya batırın.',
+      'Kızartma yağını derin bir tavada ısıtın ve kabakları kızartın.',
+      'Kızaran kabakları kağıt havlu üzerine alarak fazla yağını süzdürün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2022/07/yunan-usulu-kabak-kizartmasi-yemekcom.jpg',
+  },
+  {
+    name: 'patlicanizgara',
+    kizartma: 'Patlıcan Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '2 adet patlıcan',
+      '1 su bardağı un',
+      '1 adet yumurta',
+      'Kızartmak için sıvı yağ',
+      'Tuz',
+      'Karabiber',
+    ],
+    yapılış: [
+      'Patlıcanları halka şeklinde dilimleyin ve tuz ile yarım saat bekletin.',
+      'Bir kasede yumurtayı çırpın, un, tuz ve baharatları ekleyin.',
+      'Patlıcan dilimlerini una bulayıp, yumurtaya batırın.',
+      'Kızartma yağını derin bir tavada ısıtın ve patlıcanları kızartın.',
+      'Kızaran patlıcanları kağıt havlu üzerine alarak fazla yağını süzdürün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2016/07/patlican-kizartmasi-onecikan.jpg',
+  },
+  {
+    name: 'mantarizgara',
+    kizartma: 'Mantar Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '250 gr mantar',
+      '1 su bardağı un',
+      '1 adet yumurta',
+      'Kızartmak için sıvı yağ',
+      'Tuz',
+      'Karabiber',
+    ],
+    yapılış: [
+      'Mantarları temizleyip dilimleyin.',
+      'Bir kasede yumurtayı çırpın, un, tuz ve baharatları ekleyin.',
+      'Mantarları una bulayıp, yumurtaya batırın.',
+      'Kızartma yağını derin bir tavada ısıtın ve mantarları kızartın.',
+      'Kızaran mantarları kağıt havlu üzerine alarak fazla yağını süzdürün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2024/04/mantar-kizartmasi-yemekcom.jpg',
+  },
+  {
+    name: 'tavukkanat',
+    kizartma: 'Tavuk Kanat Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '500 gr tavuk kanadı',
+      '2 yemek kaşığı yoğurt',
+      '1 tatlı kaşığı biber salçası',
+      'Kızartmak için sıvı yağ',
+      'Tuz',
+      'Karabiber',
+      'Kırmızı biber (isteğe bağlı)',
+    ],
+    yapılış: [
+      'Tavuk kanatlarını bir kapta yoğurt, biber salçası, tuz ve baharatlarla marine edin.',
+      'En az 30 dakika bekletin.',
+      'Kızartma yağını derin bir tavada ısıtın.',
+      'Tavuk kanatlarını ekleyin ve altın rengi alana kadar kızartın.',
+      'Kızaran tavukları kağıt havlu üzerine alarak fazla yağını süzdürün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2024/07/kanat-kizartma-yemekcom.jpg',
+  },
+  {
+    name: 'balikfileto',
+    kizartma: 'Balık Fileto Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '500 gr balık fileto (örneğin levrek veya çipura)',
+      '1 su bardağı un',
+      '1 adet yumurta',
+      'Kızartmak için sıvı yağ',
+      'Tuz',
+      'Karabiber',
+    ],
+    yapılış: [
+      'Balık filetolarını tuz ve karabiber ile marine edin.',
+      'Bir kasede yumurtayı çırpın, un ekleyin.',
+      'Balıkları una bulayıp, yumurtaya batırın.',
+      'Kızartma yağını derin bir tavada ısıtın ve balıkları kızartın.',
+      'Kızaran balıkları kağıt havlu üzerine alarak fazla yağını süzdürün.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2023/09/hamsinin-faydalari-nelerdir-shutter-12.jpg',
+  },
+  {
+    name: 'ekmekKizartmasi',
+    kizartma: 'Ekmek Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '4 dilim bayat ekmek',
+      '2 adet yumurta',
+      'Yarım su bardağı süt',
+      'Tuz',
+      'Kızartmak için sıvı yağ',
+    ],
+    yapılış: [
+      'Yumurtaları bir kaseye kırıp süt ve tuzla çırpın.',
+      'Ekmek dilimlerini bu karışıma batırın.',
+      'Tavada yağı ısıtın ve ekmek dilimlerini her iki tarafı altın rengi olana kadar kızartın.',
+      'Kağıt havlu üzerine alıp fazla yağı süzdürün ve sıcak servis edin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2023/10/firinda-ekmek-kizartmasi-yemekcom.jpg',
+  },
+  {
+    name: 'hamurKizartmasi',
+    kizartma: 'Hamur Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '2 su bardağı un',
+      '1 çay bardağı yoğurt',
+      '1 adet yumurta',
+      '1 çay kaşığı kabartma tozu',
+      'Tuz',
+      'Kızartmak için sıvı yağ',
+    ],
+    yapılış: [
+      'Un, yoğurt, yumurta, kabartma tozu ve tuzu karıştırarak hamur yapın.',
+      'Hamuru ince açıp küçük parçalar kesin.',
+      'Tavada yağı ısıtın ve hamur parçalarını altın rengi olana kadar kızartın.',
+      'Kağıt havlu üzerinde fazla yağını süzdürün ve sıcak servis edin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2018/04/pofuduk-hamur-kizartmasi-one-cikan.jpg',
+  },
+  {
+    name: 'nuggetKizartmasi',
+    kizartma: 'Tavuk Nugget Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '500 gr tavuk göğsü',
+      '1 su bardağı un',
+      '2 adet yumurta',
+      '1 su bardağı galeta unu',
+      'Tuz',
+      'Karabiber',
+      'Kızartmak için sıvı yağ',
+    ],
+    yapılış: [
+      'Tavuk göğsünü küçük parçalara kesin.',
+      'Tavukları önce una, sonra çırpılmış yumurtaya ve en son galeta ununa bulayın.',
+      'Tavada yağı ısıtın ve tavukları altın rengi olana kadar kızartın.',
+      'Kağıt havlu üzerine alıp fazla yağı süzdürün ve sıcak servis edin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2022/10/nugget-tarifi-yemekcom.jpg',
+  },
+  {
+    name: 'sosisKizartmasi',
+    kizartma: 'Sosis Kızartması',
+    category: 'kizartma',
+
+    malzemeler: [
+      '10 adet küçük sosis',
+      '1 su bardağı un',
+      '2 adet yumurta',
+      '1 su bardağı galeta unu',
+      'Kızartmak için sıvı yağ',
+    ],
+    yapılış: [
+      'Sosisleri ortadan ikiye kesin.',
+      'Sosisleri önce una, sonra çırpılmış yumurtaya ve en son galeta ununa bulayın.',
+      'Tavada yağı ısıtın ve sosisleri altın rengi olana kadar kızartın.',
+      'Kağıt havlu üzerine alıp fazla yağı süzdürün ve sıcak servis edin.',
+    ],
+    image:
+      'https://cdn.yemek.com/mncrop/620/388/uploads/2023/03/sosis-kizartmasi-sunum-yemekcom.jpg',
   },
 ];
